@@ -1,0 +1,17 @@
+let num1 = prompt("Please type first your number");
+let num2 = prompt("Please type second your number");
+let choice = prompt("Do you want to multi (multiply), div (divide), or mod (modulo) your number?");
+
+//if else statement for noth numbers and calculates them with the correct operator
+if(choice == "multi") {
+	console.log(num1*num2);
+}
+else if (choice == "div") {
+	console.log(num1/num2);
+}
+else if (choice == "mod") {
+	console.log(num1%num2);
+}
+else {
+	console.log("Invalid Operator!");
+}
